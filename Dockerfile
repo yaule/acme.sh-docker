@@ -8,4 +8,4 @@ RUN apt update && apt install curl cron -y && \
 
 VOLUME /acme.sh
 
-ENTRYPOINT ["acme.sh", "--config-home", "/acme.sh"]
+# ENTRYPOINT ["acme.sh", "--config-home", "/acme.sh"]
